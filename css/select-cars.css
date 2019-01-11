@@ -1,0 +1,87 @@
+body{
+    background-color:  rgb(34, 33, 33);
+}
+
+.signin-bar a{
+    margin-left: 1000px;
+    color: #880811;
+}
+
+.logo img{
+    width: 120px;
+    height:60px;
+    position: absolute;
+    left: 0px;
+}
+
+.logo h1{
+    font-weight: bolder;
+    color:  #880811;
+    text-shadow: 5px 10px black;
+    margin-left: 118px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Merienda';
+    font-size: 35px;
+}
+
+.page-sections p{
+    color: silver;
+}
+
+.line-2 p{
+    color: #880811;
+
+}
+
+.reservations a{
+    color: #880811;
+}
+
+.car-categories button{
+    margin-top: 50px;
+}
+
+
+
+
+ /*drop down menu selections */
+ .dropbtn {
+    background-color: rgb(34, 33, 33);
+    color: goldenrod;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    font-family: "Bondoni";
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Bondoni";
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: goldenrod;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+ .dropdown:hover .dropbtn {background-color: gray;}
