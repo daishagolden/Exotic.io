@@ -1,0 +1,257 @@
+body{
+    background: url("http://inn.spb.ru/images/000/DSC100043753.jpg") no-repeat; 
+    /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.signin-bar button{
+  float:right;
+  background-color:#2d7c2d; ;
+  border-color: #2d7c2d;
+  outline-color:#2d7c2d;
+}
+.signin-bar a{
+    /* margin-left: 1000px; */
+  color: silver;
+  text-decoration: none;
+}
+
+.logo h1{
+    font-weight: bolder;
+    text-shadow: 5px 10px black;
+    margin-left: 118px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Merienda';
+    font-size: 35px;
+}
+
+.logo img{
+    width: 120px;
+    height:60px;
+    position: absolute;
+    left: 0px;
+}
+
+.logo a{
+    color: #2d7c2d;
+    text-decoration: none;
+}
+/* first bar selection */
+
+.top-bar ul {
+  margin-left: 260px;
+}
+.top-bar li{
+    list-style: none;
+    display: inline;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Bondoni";
+}
+
+.top-bar a{
+    /* color: #880811; */
+    color:#288f28;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ /*drop down menu selections */
+
+.dropbtn {
+    /* background-color: rgb(34, 33, 33); */
+    background-color: transparent;
+    color: goldenrod;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    font-family: "Bondoni";
+    font-weight: bold;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Bondoni";
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: goldenrod;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown:hover .dropbtn {background-color: transparent; }
+
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+.middle-background{
+    background-color: #cacaca;
+}
+
+.information-section{
+    margin-left: 231 px;
+}
+
+.information-section2{
+    margin-left: 231px;
+}
+
+.information-section3{
+    margin-left: 231px;
+}
+.wrapper-1{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+
+.wrapper-2{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+
+.wrapper-3{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+
+.wrapper-4{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+
+.wrapper-5{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+
+.wrapper-6{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+/* .wrapper-7{
+    background-color: goldenrod;
+    min-height: 255px;
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 10px gold;
+}
+ */
+
+
+
+ .informational-bar{
+    background-color: rgb(4, 77, 4);
+}
+
+.info-headers h2{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+.info-headers a{
+    color: silver;
+    list-style: none;
+    font-size: 12px;
+}
+
+.info-headers ul{
+    list-style: none;
+}
+
+.country-language select{
+    padding-left: 21px;
+    margin-top: 28px;
+    background-color: rgb(4, 77, 4);
+    color: silver;
+}
+
+.personal-info p{
+    color: silver;
+
+}
+
+.save_button button{
+    margin-left: 929px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #880811;
+    border: #880811;
+
+}
+
+.save_button a{
+    color: antiquewhite;
+}
+
+.personal-info input{
+    margin-left: 550px;
+    width: 350px;
+}
+
+.social-media ul{
+    margin-top: 30px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+    /* margin-top: 33px; */
+    /* margin-left: 349px; */
+
+
+}
+
+.social-media a{
+    color: silver;
+    margin-top: 33px; 
+   
+ 
+}
+
+.copyright{
+    color: silver;
+    font-size: 9px;
+}

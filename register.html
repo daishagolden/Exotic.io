@@ -12,132 +12,271 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <a href="">Sign In</a>
+            <div class="signin-bar col-sm-12">
+                <a href="signin.html">Sign In</a>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <img src="img/logo.png"><h1>EXOTIC</h1>
+            <div class="logo col-sm-12">
+                <img src="img/logo.png"><h1><a href="exotic.html">EXOTIC</h1></a>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="join-us col-sm-12">
                 <h1>Join Team Exotic</h1>
                 <p>Lets get your personal account set up.</p>
             </div>
         </div>
     </div>
+    <hr>
+    <!--  informational input section -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <p>Country</p>
-                <select>
-                    <option value="Canada">Canada</option>
-                    <option value="United Kingdom (UK)">United Kingdom (UK)</option>
-                    <option value="United Sates of America (USA)">United Sates of America (USA)</option>
-                </select>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>First Name</p>
+            <div class="wrapper-1 col-sm-6"> 
+                
                 <form>
-                    <input type="text" name="inputBox">   
+                    <input type="text" name="inputBox" placeholder="Country" required="required">   
                 </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Last Name</p>
                 <form>
-                    <input type="text" name="inputBox">   
+                    <input type="text" name="inputBox" placeholder="FirstName" required="required">   
                 </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Email Address</p>
                 <form>
-                    <input type="text" name="inputBox" placeholder="Enter your email address">   
+                    <input type="text" name="inputBox" placeholder="LastName" required="required">   
                 </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
+                <form>
+                    <input type="text" name="inputBox" placeholder="Email Address" required="required">   
+                </form>
                 <p>Recieve email offers?</p>
                 <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
+                    <input type="checkbox" >
+                </label>  
+                <form>
+                    <input type="text" name="inputBox" placeholder="Address Line 1" required="required">   
+                </form>
+                <form>
+                    <input type="text" name="inputBox" placeholder="Address Line 2" required="required">   
+                </form>
+                <form>
+                    <input type="text" name="inputBox" placeholder="Zip/Postal Code" required="required">   
+                </form>
+            </div>
+            <div class="wrapper-2 col-sm-6">
+                
+                <form>
+                    <input type="text" name="inputBox" placeholder="Email Address" required="required">   
+                </form>
+                <form>
+                    <input type="text" name="inputBox" placeholder="Password" required="required">   
+                </form>
+                <label class="switch">
+                    <input type="checkbox" > <p>Remember Me</p>
+                </label>  
+            </div>
+        </div>
+    </div>
+    <!-- <div class="input-info">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-6">
+                    <p>Country</p>
+                </div>
+                <div class="col-sm-6">
+                    <select>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+                        <option value="United Sates of America (USA)">United Sates of America (USA)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-6">
+                    <p>First Name</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox" required="required">   
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Last Name</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox" required="required">   
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Email Address</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox" placeholder="Enter your email address" required="required">   
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="email-choice container">
+            <div class="col-sm-6">
+                <p>Recieve email offers?</p>
+            </div>
+            <div class="col-sm-6">
+                <label class="switch">
+                    <input type="checkbox" >
                 </label>   
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Last Name</p>
-                <form>
-                    <input type="text" name="inputBox" placeholder="8 charachers minimum, case sensitive">   
-                </form>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Address Line 1</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox" required="required">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Address Line 2</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Zip/Postal Code</p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="text" name="inputBox" required="required" placeholder="Enter your Zip/Postal Code to confirm City and State.">
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="save_button col-sm-12">
+                    <button><a href="">Save</a></button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- detailed informational bottom-bar  -->
+    <div class="informational-bar">
+        <div class="info-bar container">
+            <div class="info-headers row">
+                <div class=" col-sm-2">
+                    <h2>Popular Searches</h2>
+                    <ul>
+                        <li><a href="">Moving Truck Rental</a></li>
+                        <li><a href="">Long Term Car Rental</a></li>
+                        <li><a href="">Free Upgrade Deal</a></li>
+                        <li><a href="">Rental Car FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Popular Rental Cars</h2>
+                    <ul>
+                        <li><a href="">Luxury Car Rental</a></li>
+                        <li><a href="">Bugatti Car Rental</a></li>
+                        <li><a href="">Lamborghini Rental</a></li>
+                        <li><a href="">Porshe Rental</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Popular US Destinations</h2> 
+                    <ul>
+                        <li><a href="">Car Rental Madison</a></li>
+                        <li><a href="">Car Rental Flowood</a></li>
+                        <li><a href="">Car Rental Ridgeland</a></li>
+                        <li><a href="">Rental Car FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Budget Partners</h2>
+                    <ul>
+                        <li><a href="">Affiliates</a></li>
+                        <li><a href="">Travel Agents</a></li>
+                        <li><a href="">AARP Members</a></li>
+                        <li><a href="">Military and Veterans</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Budget Support</h2>
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Best Rate Guarantee</a></li>
+                        <li><a href="">Roadside Assistance</a></li>
+                        <li><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Company Info</h2>    
+                    <ul>
+                        <li><a href="">About Exotic</a></li>
+                        <li><a href="">Copyright Notices</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Notice</a></li>
+                    </ul>              
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="country-language col-sm-6">
+                    <select>
+                        <option value="United Sates of America (USA)">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+                    </select>
+                    <select>
+                            <option value="English">English</option>
+                            <option value="Francais">Francais</option>
+                            <option value="Espanol">Espanol</option>
+                    </select>
+                </div>
+                <div class="social-media col-sm-6">
+                    <ul>
+                        <li><a href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="copyright col-sm-12">
+                    <p>&copy 2019 Exotic Rental Car Company, Inc.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Address Line 1</p>
-                <form>
-                    <input type="text" name="inputBox">
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Address Line 2</p>
-                <form>
-                    <input type="text" name="inputBox">
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Zip/Postal Code</p>
-                <form>
-                    <input type="text" name="inputBox"><p>Enter your Zip/Postal Code to confirm City and State.</p>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <button>Save</button>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-                
-            </div>
-        </div>
-    </div>
+
 </body>
 </html>

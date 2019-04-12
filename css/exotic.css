@@ -1,45 +1,78 @@
 body{
-    background-color: rgb(34, 33, 33);
+    background: url("http://inn.spb.ru/images/000/DSC100043753.jpg") no-repeat; 
+    /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    overflow-x: hidden;
+    background-size: cover;
 }
 
-.mid-pic h1{
-    font-weight: bolder;
-    color:  #880811;
-    text-shadow: 5px 10px black;
-    margin-left: 174px;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    font-family: 'Merienda';
-    font-size: 70px;
+.signin-bar button{
+  float:right;
+  background-color:#2d7c2d; ;
+  border-color: #2d7c2d;
+  outline-color:#2d7c2d;
+}
+.signin-bar a{
+    /* margin-left: 1000px; */
+  color: silver;
+  text-decoration: none;
 }
 
-.mid-pic img{
+/* logo and title name */
+.logo img{
     width: 200px;
     height:90px;
     position: absolute;
     left: 0px;
+    margin-left: -68px;
 }
-/* first bar selection */
+.logo h1{
+    /* font-weight: bolder; */
+    text-shadow: 5px 10px black;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 70px;
+}
+
+.logo a{
+    /* color: #880811; */
+    color: #2d7c2d;
+    text-decoration: none;
+}
+
+/* first bar selections */
+
+.top-bar ul {
+  margin-left: 133px;
+}
 .top-bar li{
     list-style: none;
     display: inline;
     margin-left: 100px;
     text-align: center;
     font-family: "Bondoni";
+    
 }
 
 .top-bar a{
-    color: #880811;
+    /* color: #880811; */
+    color:#288f28;
     font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
 }
  /*drop down menu selections */
+
 .dropbtn {
-    background-color: rgb(34, 33, 33);
+    /* background-color: rgb(34, 33, 33); */
+    background-color: transparent;
     color: goldenrod;
     padding: 16px;
     font-size: 17px;
     border: none;
     font-family: "Bondoni";
+    font-weight: bold;
   }
   
 .dropdown {
@@ -64,25 +97,20 @@ body{
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
+.dropdown:hover .dropbtn {background-color: transparent; }
+
 .dropdown-content a:hover {background-color: #ddd;}
   
-  /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
- .dropdown:hover .dropbtn {background-color: gray;}
 
 
-
-/* big background picture section */
+/* big background picture */
 .big-pic img{
     position: absolute;
     opacity: 0.8;
-    width: 1519px;
+    width: 1528px;
     height: 583px;
     z-index: -1;
-    
 }
 
 /* middle paragraph section */
@@ -92,18 +120,18 @@ body{
     text-align: center;
     font-size: 45px;
     color: goldenrod;
-    margin-top: 100px;
+    margin-top: -50px;
     font-family: "Bondoni";
 }
 
+/* reservation selection options row 1 */
 .midcenter1{
     background-color: grey;
     margin-top: 70px;
     padding: 10px;
-    border-radius: 10px;
-}
-.midcenter1 p{
-    text-align: center;
+    /* border-radius: 10px; */
+    border: none;
+    opacity: 0.8;
 }
 
 .midcenter1 select{
@@ -111,28 +139,32 @@ body{
     margin-left: 80px;
     background-color: #d2cfcf;
     height: 25px;
-}
-.midcenter1 input {
-    margin-top: 2px;
-}
-
-.mid-center1 i{
-    margin-left: 5px;
+    border-radius: 3px;
 }
 
 .midcenter1 form{
     margin-left: 50px;
 }
+
+.midcenter1 input {
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.midcenter1 i{
+    margin-left: 5px;
+}
+
+/* reservation selection options row 2 */
+
 .midcenter2{
     width: 1035px;
-    /* height: 200px; */
     background-color: grey;
     margin-top: 70px;
     padding: 10px;
-    border-radius: 10px;
-}
-.midcenter2 p{
-    text-align: center;
+    border: none;
+    /* border-radius: 10px; */
+    opacity: 0.8;
 }
 
 .midcenter2 select{
@@ -140,90 +172,227 @@ body{
     margin-left: 80px;
     background-color: #d2cfcf;
     height: 25px;
+    border-radius: 3px;
 }
 
-.midcenter2 input {
-    margin-top: 2px;
-}
 .midcenter2 form{
     margin-left: 50px;
 }
-.mid-center2 i{
+.midcenter2 input {
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.midcenter2 i{
     margin-left: 5px;
 }
 
 
-/* calendar functions */
-
-
-
-/* third middle bar */
+/* last bar row in center of page */
 
 .last-bar {
     width: 902px;
     background-color: gray;
     margin-top: 70px;
     padding: 10px;
-    border-radius: 10px;
+    border: none;
+    /* border-radius: 10px; */
+    opacity: 0.8;
 }
 .personal-info1 input{
     width: 70px;
     height: 35px;
     margin-left: 40px;
     color: gray;
+    border-radius: 3px;
 }
 .personal-info1 select{
     width: 70px;
     height: 35px;
     background-color: #d2cfcf;
+    border-radius: 3px;
 }
 .personal-info2 input{
     width: 80px;
     height: 35px;
     margin-left: 34px;
     color: gray;
+    border-radius: 3px;
 }
 
 .personal-info2 select{
     width: 152px;
     height: 35px;
     background-color: #d2cfcf;
+    border-radius: 3px;
 }
 
 .car-type input{
     height: 35px;
     margin-left: 50px;
     color: gray;
+    border-radius: 3px;
 }
 
-/*  bottom button */
+/* select car button */
 
 .bottom-button {
     margin-top: 100px;
     margin-left: 515px;
+    margin-bottom: 50px;
     padding-top: 9px;
     font-size: 15px;
-    /* height: 40px;
-    width: 123px; */
     border-radius: 4px;
    
 }
-.bottom-button a{
-    background-color: #880811;
+.bottom-button button{
+    background-color: black;
+    border: black;
     text-align: center;
-    color: black;
-    /* margin-top: 100px;
-    margin-left: 515px;
-    padding-top: 9px;
-    font-size: 15px;
+    border-radius: 4px;
     height: 40px;
-    width: 123px;
-    border-radius: 4px; */
-    height: 40px;
-    width: 123px;
-   
+    width: 123px;   
 }
 
-.bottom-button a:hover{
-   background-color: rgb(34, 33, 33);
+.bottom-button a{
+    text-decoration: none;
+    color: silver;
+}
+
+
+/* bottom header */
+.exotic-team h2{
+    text-align: center;
+    font-weight: bolder;
+    color: silver;
+}
+
+/* team members information */
+
+.team-members{
+    color: white;
+}
+.team-members h2 {
+    text-align: center;
+}
+
+.team-members p {
+    text-align: center;
+}
+
+/* Exotic Team Member pictures */
+
+.swolcott img{
+    width: 178px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 3%;  
+    margin-left: 460px;
+    border: 0;
+    color: grey
+}
+
+.dgolden img{
+    width: 178px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 3%;  
+    border: 0;
+    color: grey;
+    margin-left: 184px;
+}
+
+.jkingston img{
+    width: 178px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 3%;  
+    border: 0;
+    color: grey;
+    margin-left: 184px;
+}
+
+.dmcelroy img{
+    width: 178px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 3%;  
+    border: 0;
+    color: grey;
+    margin-left: 184px;
+}
+
+.jjordan img{
+    width: 178px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 3%;  
+    border: 0;
+    color: grey;
+    margin-left: 184px;
+}
+
+.slick-slider{
+    margin-left: 30px;
+}
+
+
+
+
+/* detailed informational bottom-bar  */
+
+.informational-bar{
+    /* background-color: #880811; */
+    background-color: rgb(4, 77, 4);
+}
+
+.info-headers h3{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+.info-headers a{
+    color: silver;
+    list-style: none;
+    font-size: 12px;
+}
+
+.info-headers ul{
+    list-style: none;
+}
+
+/* country/language dropdown  */
+.country-language select{
+    padding-left: 21px;
+    margin-top: 28px;
+    background-color: rgb(4, 77, 4);
+    /* background-color: #880811; */
+    color: silver;
+}
+
+/* social media icons */
+.social-media ul{
+    margin-top: 30px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+}
+
+.social-media a{
+    color: silver;
+    margin-top: 33px; 
+}
+
+.copyright{
+    color: silver;
+    font-size: 9px;
+}
+
+.ads{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }

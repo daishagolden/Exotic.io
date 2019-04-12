@@ -1,0 +1,170 @@
+body{
+    background: url("http://inn.spb.ru/images/000/DSC100043753.jpg") no-repeat; 
+    /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    overflow-x: hidden;
+    background-size: cover;
+    color: white;
+}
+
+
+.signin-bar button{
+  float:right;
+  background-color:#2d7c2d; ;
+  border-color: #2d7c2d;
+  outline-color:#2d7c2d;
+}
+.signin-bar a{
+    /* margin-left: 1000px; */
+  color: silver;
+  text-decoration: none;
+}
+
+/* logo and title name */
+.logo h1{
+    font-weight: bolder;
+    text-shadow: 5px 10px black;
+    margin-left: 118px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Merienda';
+    font-size: 35px;
+}
+
+.logo img{
+    width: 120px;
+    height:60px;
+    position: absolute;
+    left: 0px;
+}
+
+.logo a{
+    color: #2d7c2d;
+    text-decoration: none;
+}
+
+/* first bar selections */
+
+.top-bar ul {
+  margin-left: 260px;
+}
+
+.top-bar li{
+    list-style: none;
+    display: inline;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Bondoni";
+}
+
+.top-bar a{
+    /* color: #880811; */
+    color:#288f28;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+
+/*drop down menu selections */
+
+.dropbtn {
+    /* background-color: rgb(34, 33, 33); */
+    background-color: transparent;
+    color: goldenrod;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    font-family: "Bondoni";
+    font-weight: bold;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Bondoni";
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: goldenrod;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {background-color: transparent; }
+
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+/* detailed informational bottom-bar  */
+.informational-bar{
+    background-color: rgb(4, 77, 4);
+}
+
+.info-headers h2{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+.info-headers a{
+    color: silver;
+    list-style: none;
+    font-size: 12px;
+}
+
+.info-headers ul{
+    list-style: none;
+}
+
+/* country & language dropdown  */
+.country-language select{
+    padding-left: 21px;
+    margin-top: 28px;
+    background-color: rgb(4, 77, 4);
+    color: silver;
+}
+
+.save_button button{
+    margin-left: 929px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #880811;
+    border: #880811;
+}
+
+.save_button a{
+    color: antiquewhite;
+}
+
+/* social media icons */
+.social-media ul{
+    margin-top: 30px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+}
+
+.social-media a{
+    color: silver;
+    margin-top: 33px; 
+}
+
+.copyright{
+    color: silver;
+    font-size: 9px;
+}

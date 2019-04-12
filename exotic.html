@@ -6,30 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exotic Luxurious Car Rentals</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/> 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/exotic.css">
+    
 </head>
 <body>
+    <!-- very top bar on webpage -->
     <div class="container">
         <div class="row">
-            <div class="top-bar col-sm-12">
+            <div class="top-bar col-sm-10">
                 <ul>
-                    <li><a href="signin.html">Sign In</a></li>
-                    <li><a href="register.html">Register</a></li>
                     <li><a href="business-rentals.html">Business Rentals</a></li>
-                    <li><a href="#">Car Sales</a></li>
-                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="select-cars.html">Car Sales</a></li>
+                    <li><a href="customer-care.html">Customer Care</a></li>
                 </ul>
+            </div>
+            <div class="signin-bar col-sm-2">
+                <button><a href="signin.html">Sign In</a></button>  <button><a href="register.html">Register</a></button>
             </div>
         </div>
     </div>
-
+    <!-- drop-down bar information section -->
     <div class="container">
         <div class="row">
-            <div class="mid-pic col-sm-7">
-                <img src="img/logo.png"><h1>EXOTIC</h1>
+            <div class="logo col-sm-6">
+                <img src="img/logo.png"><h1><a href="exotic.html">EXOTIC</h1></a> 
             </div>
-            <div class="mid-bar col-sm-5">
+            <div class="mid-bar col-sm-6">
                 <div class="dropdown">
                     <button class="dropbtn">Reservations</button>
                     <div class="dropdown-content">
@@ -41,14 +46,11 @@
                     <button class="dropbtn">Deals</button>
                     <div class="dropdown-content">
                         <a href="#">US Deals</a>
-                        <a href="#">International Deals</a>
-                        <a href="#">Partner Deals</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">Locations</button>
                     <div class="dropdown-content">
-                        <a href="#">Find a Location</a>
                         <a href="#">All US Locations</a>
                         <a href="#">Top Airport Locations</a>
                     </div>
@@ -57,32 +59,34 @@
                     <button class="dropbtn">Cars & Services</button>
                     <div class="dropdown-content">
                         <a href="#">Popular Rental Cars</a>
-                        <a href="#">Products and Services</a>
                         <a href="#">Protections & Coverages</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Booking section -->
     <div class="big-pic">
-        <img src="img/car-1.jpg">     <!-- <img src="img/car-pic.jpg"> --> 
+        <img src="img/sketch.jpg">  
         <div class="container">
             <div class="row">
                 <div class="mid-section col-sm-12">
-                    <p>Book at Exotic.com for The Best Guarenteed</p>
+                    <p>Book at Exotic.com for The Best Guarenteed!</p>
                 </div>
             </div>
         </div>
+
         <div class="midcenter1 container">
-            <div class="mid-center1 row">
+            <div class="row">
                 <div class="col-sm-4">
                     <form>
-                        <input type="text" name="inputBox" placeholder="Enter your pick-up location"><i class="fas fa-map-marker-alt"></i>       
+                        <input type="text" name="inputBox" placeholder="Enter your pick-up location"><i class="fas fa-map-marker-alt"></i>
+                        <!-- location section    -->
                     </form>
                 </div>
                 <div class="col-sm-4">
                     <input type="datetime-local" name="bdaytime">
-                    <input type="submit" value="Send"><!-- calendar goes here -->
+                    <input type="submit" value="Send"><!-- calendar here -->
                 </div>
                 <div class="col-sm-4">
                     <select>
@@ -135,15 +139,16 @@
             </div>
         </div>
         <div class="midcenter2 container">
-            <div class="mid-center2 row">
+            <div class="row">
                 <div class="col-sm-4">
                     <form>
                         <input type="text" name="inputBox" placeholder="Return to same location"><i class="fas fa-map-marker-alt"></i>       
+                        <!-- location here -->
                     </form>
                 </div>
                 <div class="col-sm-4">
                     <input type="datetime-local" name="bdaytime">
-                    <input type="submit" value="Send"><!-- calendar goes here -->
+                    <input type="submit" value="Send"><!-- calendar here -->
                 </div>
                 <div class="col-sm-4">
                     <select>
@@ -226,11 +231,168 @@
         <div class="container">
             <div class="row">
                 <div class="bottom-button col-sm-12">
-                    <button>Select My Car</button>
+                    <button><a href="select-cars.html">Select My Car</a></button>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="exotic-team col-sm-12">
+                <h2>Meet the Exotic Team</h2>  
+            </div>
+        </div>
+    </div>
     
+    <div class="team-members container">
+        <div class="col-sm-12">
+            <div class="swolcott">
+                <img class="img-responsive"  src="img/stephen.png">
+                <h2>Stephen Wolcott - CEO</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nulla mollitia perferendis neque. <br> Nisi repudiandae neque quam nihil hic. Harum deserunt quos quis est.</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="dgolden">
+                <img class="img-responsive"  src="img/daisha.png">
+                <h2>Daisha Golden - Chief of Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nulla mollitia perferendis neque. <br> Nisi repudiandae neque quam nihil hic. Harum deserunt quos quis est.</p>    
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="jkingston">
+                <img class="img-responsive"  src="img/jalon.png">
+                <h2>Jalon Kingston - Chief of Operations</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nulla mollitia perferendis neque. <br> Nisi repudiandae neque quam nihil hic. Harum deserunt quos quis est.</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="dmcelroy">
+                <img class="img-responsive"  src="img/dmichael.png">
+                <h2>D'Michael McElroy - Chief of Compliance</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nulla mollitia perferendis neque. <br> Nisi repudiandae neque quam nihil hic. Harum deserunt quos quis est.</p>    
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="jjordan">
+                <img class="img-responsive"  src="img/jalen.png">
+                <h2>Jalen Jordan - Chief of Metadata</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nulla mollitia perferendis neque. <br> Nisi repudiandae neque quam nihil hic. Harum deserunt quos quis est.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="slick-slider col-sm-12">
+                <div class="ads">
+                    <img class="img-responsive"  src="img/ad-1.png" alt="ads">
+                    <img class="img-responsive" src="img/ad-2.png" alt="ads">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- detailed informational bottom-bar  -->
+    <div class="informational-bar">
+            <div class="info-bar container">
+                <div class="info-headers row">
+                    <div class=" col-sm-2">
+                        <h3>Popular Searches</h3>
+                        <ul>
+                            <li><a href="">Moving Truck Rental</a></li>
+                            <li><a href="">Long Term Car Rental</a></li>
+                            <li><a href="">Free Upgrade Deal</a></li>
+                            <li><a href="">Rental Car FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>Popular Rental Cars</h3>
+                        <ul>
+                            <li><a href="">Luxury Car Rental</a></li>
+                            <li><a href="">Bugatti Car Rental</a></li>
+                            <li><a href="">Lamborghini Rental</a></li>
+                            <li><a href="">Porshe Rental</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>Popular US Destinations</h3> 
+                        <ul>
+                            <li><a href="">Car Rental Madison</a></li>
+                            <li><a href="">Car Rental Flowood</a></li>
+                            <li><a href="">Car Rental Ridgeland</a></li>
+                            <li><a href="">Rental Car FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>Budget Partners</h3>
+                        <ul>
+                            <li><a href="">Affiliates</a></li>
+                            <li><a href="">Travel Agents</a></li>
+                            <li><a href="">AARP Members</a></li>
+                            <li><a href="">Military and Veterans</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>Budget Support</h3>
+                        <ul>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Best Rate Guarantee</a></li>
+                            <li><a href="">Roadside Assistance</a></li>
+                            <li><a href="">Site Map</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h3>Company Info</h3>    
+                        <ul>
+                            <li><a href="">About Exotic</a></li>
+                            <li><a href="">Copyright Notices</a></li>
+                            <li><a href="">Terms of Use</a></li>
+                            <li><a href="">Privacy Notice</a></li>
+                        </ul>              
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="country-language col-sm-6">
+                        <select>
+                            <option value="United Sates of America (USA)">United States</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+                        </select>
+                        <select>
+                                <option value="English">English</option>
+                                <option value="Francais">Francais</option>
+                                <option value="Espanol">Espanol</option>
+                        </select>
+                    </div>
+                    <div class="social-media col-sm-6">
+                        <ul>
+                            <li><a href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="copyright col-sm-12">
+                        <p>&copy 2019 Exotic Rental Car Company, Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/exotic-ads.js"></script>
+ 
+
 </body>
 </html>

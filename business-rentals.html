@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Business-Rentals</title>
+    <title>Business Rentals</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/business-rentals.css">
 </head>
 <body>
+    <!-- very top bar on webpage -->
     <div class="container">
         <div class="row">
-            <div class="top-bar col-sm-12">
+            <div class="top-bar col-sm-10">
                 <ul>
-                    <li><a href="signin.html">Sign In</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="business-rentals.html">Business Refferals</a></li>
-                    <li><a href="#">Car Sales</a></li>
-                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="select-cars.html">Car Sales</a></li>
+                    <li><a href="customer-care.html">Customer Care</a></li>
                 </ul>
+            </div>
+            <div class="signin-bar col-sm-2">
+                <button><a href="signin.html">Sign In</a></button>  <button><a href="register.html">Register</a></button>
             </div>
         </div>
     </div>
 
+    <!-- drop-down bar information section -->
     <div class="container">
         <div class="row">
-            <div class="mid-pic col-sm-7">
-                <img src="img/logo.png"><h1>EXOTIC</h1>
+            <div class="logo col-sm-6">
+                <img src="img/logo.png"><h1><a href="exotic.html">EXOTIC</h1></a>
             </div>
-            <div class="mid-bar col-sm-5">
+            <div class="mid-bar col-sm-6">
                 <div class="dropdown">
                     <button class="dropbtn">Reservations</button>
                     <div class="dropdown-content">
@@ -38,14 +43,11 @@
                     <button class="dropbtn">Deals</button>
                     <div class="dropdown-content">
                     <a href="#">US Deals</a>
-                    <a href="#">International Deals</a>
-                    <a href="#">Partner Deals</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">Locations</button>
                     <div class="dropdown-content">
-                    <a href="#">Find a Location</a>
                     <a href="#">All US Locations</a>
                     <a href="#">Top Airport Locations</a>
                     </div>
@@ -54,31 +56,26 @@
                     <button class="dropbtn">Cars & Services</button>
                     <div class="dropdown-content">
                     <a href="#">Popular Rental Cars</a>
-                    <a href="#">Products and Services</a>
                     <a href="#">Protections & Coverages</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- a line goes here -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-">
-                <img src="">
-            </div>
-        </div>
-    </div>
+    <hr>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <p>Get more for your small business.</p>
             </div>
             <div class="col-sm-6">
-                <p>Already a member?</p><a href="">Log in Now</a>
+                <p>Already a member?</p><a href="signin.html">Log in Now</a>
             </div>
         </div>
     </div>
+
+    <!-- business information content -->
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -109,7 +106,9 @@
             </div>
         </div>
     </div>
-    <!-- a line goes here -->
+    <hr>
+
+    <!--  informational input section -->
     <h1>Name</h1>
     <div class="container">
         <div class="row">
@@ -129,7 +128,7 @@
             </div>
         </div>
     </div>
-
+    <hr>
     <h1>Contact Information</h1>
     <div class="container">
         <div class="row">
@@ -150,12 +149,198 @@
             </div>
         </div>
     </div>
-
-
+    <hr>
     <h1>Communication preferences</h1>
-
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="radio" id="choice1"
+                name="contact" value="email" checked>
+                <p>Yes, I would like to recieve emails, updates, and special offers from Exotic.</p>
+            </div>
+            <div class="col=sm-6">
+                <input type="radio" id="contactChoice1"
+                name="contact" value="email" checked>
+                <p>No, I do not want to recieve promotional email offers at this time.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
     <h1>Company Information</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Business Name</p>
+                <form>
+                    <input type="text" name="inputBox" >   
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Address Line 1</p>
+                <form>
+                    <input type="text" name="inputBox">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-12">
+                <p>Address Line 2 (Optional)</p>
+                <form>
+                    <input type="text" name="inputBox">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>City</p>
+                <form>
+                    <input type="text" name="inputBox">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>State</p>
+                    <form>
+                        <input type="text" name="inputBox">
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Zip</p>
+                <form>
+                    <input type="text" name="inputBox">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-12">
+                    <p>Country</p>
+                <form>
+                    <input type="text" name="inputBox">
+                </form>
+            </div>
+         </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="">Cancel</a>
+            </div>
+            <div class="col-sm-6">
+                <button><a href="">Submit</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- detailed informational bottom-bar  -->
+    <div class="informational-bar">
+        <div class="info-bar container">
+            <div class="info-headers row">
+                <div class=" col-sm-2">
+                    <h2>Popular Searches</h2>
+                    <ul>
+                        <li><a href="">Moving Truck Rental</a></li>
+                        <li><a href="">Long Term Car Rental</a></li>
+                        <li><a href="">Free Upgrade Deal</a></li>
+                        <li><a href="">Rental Car FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Popular Rental Cars</h2>
+                    <ul>
+                        <li><a href="">Luxury Car Rental</a></li>
+                        <li><a href="">Bugatti Car Rental</a></li>
+                        <li><a href="">Lamborghini Rental</a></li>
+                        <li><a href="">Porshe Rental</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Popular US Destinations</h2> 
+                    <ul>
+                        <li><a href="">Car Rental Madison</a></li>
+                        <li><a href="">Car Rental Flowood</a></li>
+                        <li><a href="">Car Rental Ridgeland</a></li>
+                        <li><a href="">Rental Car FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Budget Partners</h2>
+                    <ul>
+                        <li><a href="">Affiliates</a></li>
+                        <li><a href="">Travel Agents</a></li>
+                        <li><a href="">AARP Members</a></li>
+                        <li><a href="">Military and Veterans</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Budget Support</h2>
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Best Rate Guarantee</a></li>
+                        <li><a href="">Roadside Assistance</a></li>
+                        <li><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Company Info</h2>    
+                    <ul>
+                        <li><a href="">About Exotic</a></li>
+                        <li><a href="">Copyright Notices</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Notice</a></li>
+                    </ul>              
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="country-language col-sm-6">
+                    <select>
+                        <option value="United Sates of America (USA)">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+                    </select>
+                    <select>
+                            <option value="English">English</option>
+                            <option value="Francais">Francais</option>
+                            <option value="Espanol">Espanol</option>
+                    </select>
+                </div>
+                <div class="social-media col-sm-6">
+                    <ul>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="copyright col-sm-12">
+                    <p>&copy 2019 Exotic Rental Car Company, Inc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

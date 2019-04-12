@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(56, 54, 54);
+}
+
+.signin-bar a{
+    margin-left: 1000px;
+    color: #880811;
+    text-decoration: none;
+}
+
+/* logo image and company name */
+.logo img{
+    width: 120px;
+    height:60px;
+    position: absolute;
+    left: 0px;
+}
+
+.logo h1{
+    font-weight: bolder;
+    text-shadow: 5px 10px black;
+    margin-left: 118px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Merienda';
+    font-size: 35px;
+}
+
+.logo a{
+    color: #880811;
+    text-decoration: none;
+}
+
+
+.join-us h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 280px;
+    color: goldenrod;
+}
+
+.join-us p{
+  margin-left: 280px;
+  color: antiquewhite;
+}  
+
+/* register & signup border box */
+
+
+.wrapper-1{
+    background-color: silver;
+    width: 45%;
+
+}
+
+.wrapper-1 input{
+    /* border: none; */
+}
+
+.wrapper-2{
+    background-color: silver;
+    margin-left: 10px;
+  
+}
+
+
+/* informational input section */
+.input-info p{
+    color: silver;
+    padding-top: 10px;
+}
+
+.input-info input{
+    padding-right: 100px;
+}
+.email-choice {
+   padding: 0px; /* padding was pushing my words on the inside which made the words not line up.  */
+}
+
+/* detailed informational bottom-bar  */
+.informational-bar{
+    background-color: #880811;
+    margin-top: 450px;
+}
+
+.info-headers h2{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+.info-headers a{
+    color: silver;
+    list-style: none;
+    font-size: 12px;
+}
+
+.info-headers ul{
+    list-style: none;
+} 
+
+/* country/language dropdown  */
+.country-language select{
+    padding-left: 21px;
+    margin-top: 28px;
+    background-color: #880811;
+    color: silver;
+}
+
+.save_button button{
+    margin-left: 929px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #880811;
+    border: #880811;
+
+}
+
+.save_button a{
+    color: antiquewhite;
+}
+
+/* social media icons */
+.social-media ul{
+    margin-top: 30px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+}
+
+.social-media a{
+    color: silver;
+    margin-top: 33px; 
+}
+
+.copyright{
+    color: silver;
+    font-size: 9px;
+}
