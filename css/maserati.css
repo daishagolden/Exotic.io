@@ -110,8 +110,25 @@ h3{
   /* Change the background color of the dropdown button when the dropdown content is shown */
  .dropdown:hover .dropbtn {background-color: gray;}
 
+.selection1 h3{
+  text-align: center;
+  margin-top: 160px;
+}
+.selection1 button{
+  margin-left: 36px;
+}
 
- 
+.selection2 img{
+  margin-top: 100px;
+} 
+.selection2 h3{
+  text-align: center;
+  margin-top: 160px;
+}
+.selection2 button{
+  margin-left: 36px;
+}
+
 .informational-bar{
     background-color:  rgb(4, 77, 4);
 }
