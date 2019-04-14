@@ -1,11 +1,20 @@
 body{
-    background-color: rgb(56, 54, 54);
+    background: url("https://us.123rf.com/450wm/2becontinued/2becontinued1511/2becontinued151100111/48493845-abstract-smoke-and-fog-background.jpg?ver=6") no-repeat; 
+    /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    overflow-x: hidden;
+    background-size: cover;
 }
 
+.signin-bar button{
+  float:right;
+  background-color:#2d7c2d; ;
+  border-color: #2d7c2d;
+  outline-color:#2d7c2d;
+}
 .signin-bar a{
-    margin-left: 1000px;
-    color: #880811;
-    text-decoration: none;
+    /* margin-left: 1000px; */
+  color: silver;
+  text-decoration: none;
 }
 
 /* logo image and company name */
@@ -27,10 +36,30 @@ body{
 }
 
 .logo a{
-    color: #880811;
+    color: #2d7c2d;
     text-decoration: none;
 }
 
+/* first bar selection */
+
+.top-bar ul {
+  margin-left: 260px;
+}
+.top-bar li{
+    list-style: none;
+    display: inline;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Bondoni";
+}
+
+.top-bar a{
+    /* color: #880811; */
+    color:#288f28;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .join-us h1{
     margin-top: 0px;
@@ -79,7 +108,7 @@ body{
 
 /* detailed informational bottom-bar  */
 .informational-bar{
-    background-color: #880811;
+    background-color: rgb(4, 77, 4);
     margin-top: 450px;
 }
 
@@ -103,7 +132,7 @@ body{
 .country-language select{
     padding-left: 21px;
     margin-top: 28px;
-    background-color: #880811;
+    background-color: rgb(4, 77, 4);
     color: silver;
 }
 
